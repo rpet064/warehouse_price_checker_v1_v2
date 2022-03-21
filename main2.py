@@ -4,8 +4,8 @@ import smtplib
 
 URL = input("Welcome to the warehouse price alerter, please put in the url of something you want to buy\n")
 user_email = input("Please put in your email for daily alerts\n")
-sender_email = "pencilcasetester@gmail.com"
-sender_password = "xGE81tW3b#$azA"
+sender_email = "YOUR_EMAIL"
+sender_password = "YOUR_PASSWORD
 
 # scrape data
 response = requests.get(url=URL)
